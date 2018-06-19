@@ -1,0 +1,116 @@
+ @import url(<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet");
+
+body{
+    font-family: font-family: 'Oswald', sans-serif;
+    margin: 0;
+    height: auto;
+    background: #ccc;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 2.0rem;
+    margin: auto;
+    text-transform: uppercase;
+}
+
+#landing h2{
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin: auto;
+}
+img{
+    display: block;
+    width: 100%;
+}
+main{
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 30px 0px 40px rgba(0,0,0,0.1),
+        -30px 0px 40px rgba(0,0,0,0.1);
+}
+#landing{
+    background: #fff;
+}
+#landing-text{
+    display: flex;
+    flex: 0 1 40vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+#landing-text h2{
+    color: #888;
+}
+#landing-image{
+    background: url(https://source.unsplash.com/nZv5fBUeIZY);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    flex: 0 1 60vw;
+    margin: 0;
+}
+.btn{
+    padding: 0.5rem 2rem;
+    margin: 1rem;
+    display: inline-block;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    color: #333;
+    border-radius: 10px;
+    transition: background 700ms ease;
+}
+.btn:hover{
+    background: #ccc;
+}
+#header{
+    padding: 1.5rem;
+    text-align: center;
+    background: #888;
+    color: #fff;
+}
+#header h2{
+    border-left: 1px dotted #fff;
+    border-right: 1px dotted #fff;
+    display: inline-block;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.caption{
+    padding: 0.85rem;
+    text-align: center;
+}
+footer{
+    padding: 2rem 1rem;
+    text-align: center;
+    margin: auto;
+    color: #333;
+}
+footer h3{
+    font-size: 2.3rem;
+    margin-bottom: 0;
+}
+/*Screen size 500px and above*/
+@media(min-width: 500px){
+    #landing{
+        display: flex;
+        height: 100%;
+    }
+    #landing-text{
+        height: 100vh;
+    }
+    #landing-image{
+        height: 100vh;
+    }
+}
+/*Screen size 700px and above*/
+@media(min-width: 700px){
+    .btn{
+        padding: 1rem 3rem;
+    }
+}

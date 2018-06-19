@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #ccc;
+}
+             /* header part */
+
+  header{
+    background: #333;
+    color: #fff;
+    min-height: 90px;
+    border-bottom: 3px;
+  }
+  header a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+  header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+  }
+header #branding{
+  float: left;
+}
+header nav{
+  float: right;
+  padding-top: 17px;
+}
+header a:hover{
+  color: #ccc;
+  font-weight: bold;
+  text-decoration: none;
+}
+header p{
+  padding-top: 5px;
+}
+header .heighlight, header .current{
+  font-weight: bold;
+  color: #D11919;
+}
+
+              /* Different sections */
+.conatiner div{
+  border: 1px solid #ccc;
+  padding: 10px;
+  background: linear-gradient(to right, #999, #ccc);
+  align-content: center;
+}
+.conatiner{
+      display: flex;
+}
+.box1{
+  flex: 1;
+}
+.box2{
+  flex: 1;
+}
+.box3{
+  flex: 1;
+}
+
+.hehe h3,p{
+  text-align: center;
+}
+.hehe ul{
+  text-align: center;
+}
+.hehe li{
+  list-style-type: none;
+}
+             /* Footer */
+footer{
+  padding: 1rem 1rem;
+  margin: auto;
+  text-align: center;
+  background: rgb(53, 53, 53);
+  color: #fff;
+}
+footer h3{
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+footer p{
+  font-size: 1.2rem;
+}
